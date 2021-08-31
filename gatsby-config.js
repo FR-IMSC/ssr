@@ -133,7 +133,7 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress`,
       options: {
-        url: process.env.WPGRAPHQL_URL || `https://your.fallback.url/graphql`,
+        url: process.env.WPGRAPHQL_URL || `https://imscproject.com/prosper/graphql`,
       },
     },
   ],
